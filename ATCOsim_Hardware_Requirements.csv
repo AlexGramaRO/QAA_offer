@@ -21,3 +21,19 @@ A19,Network switch,Rack-mountable; min 24 ports Gigabit (prefer 24× 1GbE or 10G
 A20,Network cabling,Cat6 or Cat6a; patch cables (1–3 m) from switch to racked units; structured cabling runs to controller positions; connectors as required; est. 25+ runs,25
 A21,Power distribution (rack),Rack PDU; sufficient outlets for 9 rendering units + switch + peripherals; surge protection; local power standard,1
 A22,Power cables (computers and peripherals),IEC or local standard for controller PCs and displays; estimate for 10 PCs + 15 displays + switch,30
+B1,Workstation computers (controller + supervisor),"Same specifications as A8. Form factor: Desktop or SFF. CPU: Intel i5-13400/i7-13700 or AMD Ryzen 5 7600/7 7700. GPU: min 3× outputs for 15""+40""+24"" displays. 2 per position. 8 controller + 1 supervisor positions.",18
+B2,Touchscreen displays,15 inch or similar; capacitive touch; same as A9,9
+B3,Main displays,40+ inch; primary display; same as A10,9
+B4,Secondary displays,24+ inch; secondary display; same as A11,9
+B5,Display and peripheral cabling,HDMI/DisplayPort (PCs to 3× screens per position); USB for peripherals; 9 positions × 3 screens + USB,30
+B6,ATC headsets,Plantronics or equivalent; boom microphone; same as A13,9
+B7,Push-to-talk handhelds,Same as A14,9
+B8,Push-to-talk pedals,Same as A15,9
+B9,PTT interface cabling,Same as A16; 2 per position,18
+B10,LundHalsey radar consoles,Radar console/workstation; LundHalsey or equivalent; for 8 controller positions; space for 3 screens and peripherals,8
+B11,LundHalsey supervisor desk,Supervisor console; LundHalsey or equivalent; same screen/peripheral layout as controller positions,1
+B12,Ergonomic chairs,Same as A18; one per position (8 controller + 1 supervisor),9
+B13,Network switch,Gigabit switch; min 24 ports; for radar room: 18 computers + uplink to Tower switch + uplink to internet; rack-mountable,1
+B14,Small rack,For radar room switch; wall-mount or floor 6–12U; houses switch; cable management,1
+B15,Network cabling,Cat6/Cat6a; from switch to 18 computers; uplink to Tower rack switch; length as per room layout; est. 25+ runs,25
+B16,Power cables (radar room),IEC or local standard for 18 PCs + 27 displays + switch; estimate,50
