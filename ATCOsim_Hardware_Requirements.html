@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATCOsim – Hardware Requirements</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #1a1d23;
+            color: #e4e6eb;
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.5;
+        }
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+        .subtitle {
+            color: #8b8f98;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #252830;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        th, td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid #363b45;
+        }
+        th {
+            background: #2d323d;
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #a8adb8;
+        }
+        tbody tr:hover {
+            background: #2d323d;
+        }
+        td:first-child {
+            font-weight: 600;
+            color: #6ea8fe;
+            min-width: 4rem;
+        }
+        td:nth-child(4) {
+            text-align: center;
+        }
+        tr.chapter-row td {
+            background: #1f2329;
+            font-weight: 600;
+            font-size: 1rem;
+            color: #fff;
+            padding-top: 1.25rem;
+            padding-bottom: 0.5rem;
+        }
+        tr.chapter-row:first-child td {
+            padding-top: 1rem;
+        }
+        tr.chapter-row td:first-child {
+            color: inherit;
+        }
+        .empty-cell {
+            color: #5c6170;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>ATCOsim – Hardware Requirements</h1>
+    <p class="subtitle">QAA Offer – Equipment specification</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item ID</th>
+                <th>Item Name</th>
+                <th>Item technical components</th>
+                <th>Qty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="chapter-row">
+                <td colspan="4">Tower 3D Simulator</td>
+            </tr>
+            <tr>
+                <td>A1</td>
+                <td>Large display TVs</td>
+                <td>75+ inch screen, portrait mode orientation; suitable for curved/radial arrangement; min 4K UHD; low input lag preferred for real-time display</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>TV stands</td>
+                <td>Stands rated for 75+ inch displays; height and angle adjustable for alignment; compatible with circular/radial TV arrangement</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>Movable door mechanism</td>
+                <td>Motorised or manual mechanism to allow one screen to act as access door; integrated with TV stand; enables entry/exit to simulator interior without disrupting display array</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>Rendering units</td>
+                <td><strong>Form factor:</strong> Rack-mountable 1U or 2U.<br>
+                    <strong>CPU:</strong> Intel Core i7-13700/i9-13900 or AMD Ryzen 7 7700X/9 7900X (8+ cores, 3.5+ GHz).<br>
+                    <strong>Motherboard:</strong> Compatible chipset, PCIe x16 for GPU.<br>
+                    <strong>RAM:</strong> 32 GB DDR5 (or DDR4-3200) dual-channel.<br>
+                    <strong>GPU:</strong> NVIDIA RTX 4070 Ti / 4080 / 4090 or equivalent; min 12 GB VRAM; 2× DisplayPort 1.4 + HDMI 2.1; Prepar3D high/ultra at 4K.<br>
+                    <strong>Storage:</strong> 512 GB NVMe SSD. <strong>PSU:</strong> 750W+ 80+ Gold.<br>
+                    <strong>Cooling:</strong> Adequate for dense rack. <strong>Networking:</strong> Gigabit Ethernet. Each unit drives 2 TVs.</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>A5</td>
+                <td>Server rack</td>
+                <td>42U or equivalent; houses 9 rendering units + network switch + PDU; adequate cooling/ventilation; cable management</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>A6</td>
+                <td>HDMI/DisplayPort cables (visualisation)</td>
+                <td>High-speed HDMI 2.1 or DisplayPort 1.4; length to suit rendering unit to TV runs (typical 3–8 m per run); 18 runs (rendering units to TVs)</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>A7</td>
+                <td>Power cables (visualisation)</td>
+                <td>IEC C13 or local standard; for 18× TVs + 18× stands (if powered)</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>A8</td>
+                <td>Controller workstation computers</td>
+                <td><strong>Form factor:</strong> Desktop or SFF (under-desk).<br>
+                    <strong>CPU:</strong> Intel Core i5-13400/i7-13700 or AMD Ryzen 5 7600/7 7700 (6+ cores).<br>
+                    <strong>Motherboard:</strong> Compatible, multi-display support.<br>
+                    <strong>RAM:</strong> 16–32 GB DDR4-3200 or DDR5.<br>
+                    <strong>GPU:</strong> Min 3× independent video outputs (DisplayPort/HDMI); e.g. NVIDIA GTX 1660/RTX 3060 or AMD RX 6600; must drive 15" + 40" + 24" displays simultaneously.<br>
+                    <strong>Storage:</strong> 256 GB NVMe SSD. <strong>PSU:</strong> 500W+ 80+.<br>
+                    <strong>Networking:</strong> Gigabit Ethernet. <strong>Ports:</strong> 3× video outputs; USB for peripherals/PTT; audio line-out for headset. 2 units per position.</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>A9</td>
+                               <td>Touchscreen displays (controller)</td>
+                <td>15 inch or similar; capacitive touch; compatible with video output from controller PCs</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>A10</td>
+                <td>Main displays (controller)</td>
+                <td>40+ inch; primary controller display; low input lag; suitable mounting/desk integration</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>A11</td>
+                <td>Secondary displays (controller)</td>
+                <td>24+ inch; secondary controller display; desk mounting</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>A12</td>
+                <td>Display and peripheral cabling (controller)</td>
+                <td>HDMI/DisplayPort cables (controller PCs to 3× screens per position); USB cables for peripherals; length as per desk layout; 5 positions × 3 screens + USB runs</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>A13</td>
+                <td>ATC headsets</td>
+                <td>Plantronics or equivalent (e.g. Sennheiser, David Clark); boom microphone; over-ear; suitable for ATC simulation / VoIP</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>A14</td>
+                <td>Push-to-talk handhelds</td>
+                <td>PTT handheld units; compatible with headset connection or USB/audio interface to computer</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>A15</td>
+                <td>Push-to-talk pedals</td>
+                <td>Foot-operated PTT; connects to headset or computer audio interface; hands-free transmit</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>A16</td>
+                <td>PTT interface cabling</td>
+                <td>Cables to connect PTT handhelds and pedals to headsets and/or computers; audio adapters if required</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>A17</td>
+                <td>LundHalsey ATC desks</td>
+                <td>ATC console/workstation; LundHalsey or equivalent; suitable for 5 positions (1 Supervisor + 4 Controllers); cable management; space for 3 screens and peripherals per position</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>A18</td>
+                <td>Ergonomic chairs</td>
+                <td>Office/ATC ergonomic chair; adjustable height/armrest; lumbar support; one per controller position</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>A19</td>
+                <td>Network switch</td>
+                <td>Rack-mountable; min 24 ports Gigabit (prefer 24× 1GbE or 10GbE); sufficient ports for 9 rendering units + 10 controller PCs + spare; managed switch preferred</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>A20</td>
+                <td>Network cabling</td>
+                <td>Cat6 or Cat6a; patch cables (1–3 m) from switch to racked units; structured cabling runs to controller positions; connectors as required; est. 25+ runs</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>A21</td>
+                <td>Power distribution (rack)</td>
+                <td>Rack PDU; sufficient outlets for 9 rendering units + switch + peripherals; surge protection; local power standard</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>A22</td>
+                <td>Power cables (computers and peripherals)</td>
+                <td>IEC or local standard for controller PCs and displays; estimate for 10 PCs + 15 displays + switch</td>
+                <td>30</td>
+            </tr>
+
+            <tr class="chapter-row">
+                <td colspan="4">Radar Simulator</td>
+            </tr>
+            <tr>
+                <td>B1</td>
+                <td class="empty-cell">—</td>
+                <td class="empty-cell">—</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>B2</td>
+                <td class="empty-cell">—</td>
+                <td class="empty-cell">—</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>B3</td>
+                <td class="empty-cell">—</td>
+                <td class="empty-cell">—</td>
+                <td>—</td>
+            </tr>
+
+            <tr class="chapter-row">
+                <td colspan="4">Pseudo-Pilots</td>
+            </tr>
+            <tr>
+                <td>C1</td>
+                <td class="empty-cell">—</td>
+                <td class="empty-cell">—</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>C2</td>
+                <td class="empty-cell">—</td>
+                <td class="empty-cell">—</td>
+                <td>—</td>
+            </tr>
+            <tr>
+                <td>C3</td>
+                <td class="empty-cell">—</td>
+                <td class="empty-cell">—</td>
+                <td>—</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

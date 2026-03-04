@@ -1,0 +1,23 @@
+Item ID,Item Name,Item technical components,Number of items required
+A1,Large display TVs,75+ inch screen, portrait mode orientation; suitable for curved/radial arrangement; min 4K UHD; low input lag preferred for real-time display,18
+A2,TV stands,Stands rated for 75+ inch displays; height and angle adjustable for alignment; compatible with circular/radial TV arrangement,18
+A3,Movable door mechanism,Motorised or manual mechanism to allow one screen to act as access door; integrated with TV stand; enables entry/exit to simulator interior without disrupting display array,1
+A4,Rendering units,"Form factor: Rack-mountable 1U or 2U. CPU: Intel Core i7-13700/i9-13900 or AMD Ryzen 7 7700X/9 7900X (8+ cores, 3.5+ GHz). Motherboard: Compatible chipset, PCIe x16 for GPU. RAM: 32 GB DDR5 (or DDR4-3200) dual-channel. GPU: NVIDIA RTX 4070 Ti / 4080 / 4090 or equivalent; min 12 GB VRAM; 2× DisplayPort 1.4 + HDMI 2.1; capable of Prepar3D at high/ultra settings at 4K. Storage: 512 GB NVMe SSD. PSU: 750W+ 80+ Gold. Cooling: Adequate for dense rack deployment. Networking: Gigabit Ethernet. Each unit drives 2 TVs.",9
+A5,Server rack,42U or equivalent; houses 9 rendering units + network switch + PDU; adequate cooling/ventilation; cable management,1
+A6,HDMI/DisplayPort cables (visualisation),High-speed HDMI 2.1 or DisplayPort 1.4; length to suit rendering unit to TV runs (typical 3–8 m per run); 18 runs (rendering units to TVs),18
+A7,Power cables (visualisation),IEC C13 or local standard; for 18× TVs + 18× stands (if powered),18
+A8,Controller workstation computers,"Form factor: Desktop or SFF (under-desk). CPU: Intel Core i5-13400/i7-13700 or AMD Ryzen 5 7600/7 7700 (6+ cores). Motherboard: Compatible, multi-display support. RAM: 16–32 GB DDR4-3200 or DDR5. GPU: Min 3× independent video outputs (DisplayPort/HDMI); e.g. NVIDIA GTX 1660/RTX 3060 or AMD RX 6600; must drive 15"" + 40"" + 24"" displays simultaneously. Storage: 256 GB NVMe SSD. PSU: 500W+ 80+. Networking: Gigabit Ethernet. Ports: 3× video outputs; USB for peripherals/PTT; audio line-out for headset. 2 units per position.",10
+A9,Touchscreen displays (controller),15 inch or similar; capacitive touch; compatible with video output from controller PCs,5
+A10,Main displays (controller),40+ inch; primary controller display; low input lag; suitable mounting/desk integration,5
+A11,Secondary displays (controller),24+ inch; secondary controller display; desk mounting,5
+A12,Display and peripheral cabling (controller),HDMI/DisplayPort cables (controller PCs to 3× screens per position); USB cables for peripherals; length as per desk layout; 5 positions × 3 screens + USB runs,15
+A13,ATC headsets,Plantronics or equivalent (e.g. Sennheiser, David Clark); boom microphone; over-ear; suitable for ATC simulation / VoIP,5
+A14,Push-to-talk handhelds,PTT handheld units; compatible with headset connection or USB/audio interface to computer,5
+A15,Push-to-talk pedals,Foot-operated PTT; connects to headset or computer audio interface; hands-free transmit,5
+A16,PTT interface cabling,Cables to connect PTT handhelds and pedals to headsets and/or computers; audio adapters if required,10
+A17,LundHalsey ATC desks,ATC console/workstation; LundHalsey or equivalent; suitable for 5 positions (1 Supervisor + 4 Controllers); cable management; space for 3 screens and peripherals per position,5
+A18,Ergonomic chairs,Office/ATC ergonomic chair; adjustable height/armrest; lumbar support; one per controller position,5
+A19,Network switch,Rack-mountable; min 24 ports Gigabit (prefer 24× 1GbE or 10GbE); sufficient ports for 9 rendering units + 10 controller PCs + spare; managed switch preferred,1
+A20,Network cabling,Cat6 or Cat6a; patch cables (1–3 m) from switch to racked units; structured cabling runs to controller positions; connectors as required; est. 25+ runs,25
+A21,Power distribution (rack),Rack PDU; sufficient outlets for 9 rendering units + switch + peripherals; surge protection; local power standard,1
+A22,Power cables (computers and peripherals),IEC or local standard for controller PCs and displays; estimate for 10 PCs + 15 displays + switch,30
