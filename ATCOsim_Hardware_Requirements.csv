@@ -33,7 +33,14 @@ B9,PTT interface cabling,Same as A16; 2 per position,18
 B10,LundHalsey radar consoles,Radar console/workstation; LundHalsey or equivalent; for 8 controller positions; space for 3 screens and peripherals,8
 B11,LundHalsey supervisor desk,Supervisor console; LundHalsey or equivalent; same screen/peripheral layout as controller positions,1
 B12,Ergonomic chairs,Same as A18; one per position (8 controller + 1 supervisor),9
-B13,Network switch,Gigabit switch; min 24 ports; for radar room: 18 computers + uplink to Tower switch + uplink to internet; rack-mountable,1
-B14,Small rack,For radar room switch; wall-mount or floor 6–12U; houses switch; cable management,1
+B13,Network switch,Gigabit switch; min 48 ports; for radar room + pseudo-pilot room: 18 radar + 12 pseudo-pilot computers + uplink to Tower switch + uplink to internet; rack-mountable,1
+B14,Small rack,For radar and pseudo-pilot switch; wall-mount or floor 6–12U; houses switch; cable management; serves both radar and pseudo-pilot rooms,1
 B15,Network cabling,Cat6/Cat6a; from switch to 18 computers; uplink to Tower rack switch; length as per room layout; est. 25+ runs,25
 B16,Power cables (radar room),IEC or local standard for 18 PCs + 27 displays + switch; estimate,50
+C1,Workstation computers (pseudo-pilot),"Form factor: Desktop or SFF. CPU: Intel Core i5 or AMD Ryzen 5 (4+ cores). RAM: 16 GB DDR4. GPU: min 2× independent video outputs (DisplayPort/HDMI) for 2× 24"" displays; e.g. NVIDIA GTX 1650 or AMD RX 6500. Storage: 256 GB SSD. PSU: 400W+ 80+. Networking: Gigabit Ethernet. 1 per position.",12
+C2,Displays 24 inch,24 inch; standard display (no touchscreen); 2 per position,24
+C3,Regular desks,Standard office desk; suitable for 1 PC and 2× 24"" displays; cable management,12
+C4,Ergonomic chairs,Same as A18; one per position,12
+C5,Display and peripheral cabling,HDMI/DisplayPort (PC to 2× screens per position); USB for peripherals; 12 positions × 2 screens,24
+C6,Network cabling (pseudo-pilot),Cat6/Cat6a; from 12 pseudo-pilot computers to radar room switch (B13); uses same rack as B14; est. 12+ runs,12
+C7,Power cables (pseudo-pilot),IEC or local standard for 12 PCs + 24 displays; estimate,40
